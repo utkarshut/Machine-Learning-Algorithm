@@ -1,0 +1,34 @@
+Machine Learning
+
+-- Arthur Samuel (1959  checkers program)
+machine learning as the field of study that gives computers the ability to learn without being explicitly learned.
+
+--Tom Mitchell ()
+a well-posed learning problem is defined as follows. He says, a computer program is said to learn from experience E
+with respect to some task T and some performance measure P,if its performance on T, as measured by P, improves with experience E.
+
+1963 vapnik support vector machine
+  Machine learning Algorithm
+   -->Supervised Learning (teach computer)
+      right answer given
+      regression (predict continues valued output)
+      classification problem (Discrete valued output eg.(0,1))
+
+
+   --> Unsupervised learning (computer learn by itself)
+      goal is to find structure in it.
+      clusering algorithm (eg. google news cluster same story to same link to avoid duplicacy)
+      used to organise large computer cluster , social friend analysis , market segment in organisation (eg customer
+      segmantation to determine which to sell), astronomical data analysis
+
+ other : Reinforcement learning , Recommender system
+
+
+ * Support vector machine -> mathmatic trick that allow computer to deal with infinite number of features
+
+ ml consist of feature and label
+  -feature like attribute or continuous data that make labels , label is some sort of prediction
+  -simplify the data
+  -build reln between attribute
+  
+A feature is a measurable property of the object you’re trying to analyze. In datasets, features appear as columns:
