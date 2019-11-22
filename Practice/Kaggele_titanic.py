@@ -10,11 +10,11 @@ import pandas as pd
 #for numerical computaions we can use numpy library
 import numpy as np
 
-titanic = pd.read_csv("./dataSet/titanic/train.csv")
+titanic = pd.read_csv("../dataSet/titanic/train.csv")
 # Print the first 5 rows of the dataframe.
 t1 = titanic.head()
 
-titanic_test = pd.read_csv("./dataSet/titanic/test.csv")
+titanic_test = pd.read_csv("../dataSet/titanic/test.csv")
 t2 = titanic_test.head()
 #transpose
 t3 =titanic_test.head().T

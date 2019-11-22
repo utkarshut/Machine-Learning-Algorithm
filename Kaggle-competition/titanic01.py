@@ -32,8 +32,8 @@ from sklearn.linear_model import Perceptron
 from sklearn.linear_model import SGDClassifier
 from sklearn.tree import DecisionTreeClassifier
 
-train_df = pd.read_csv('./dataSet/titanic/train.csv')
-test_df = pd.read_csv('./dataSet/titanic/test.csv')
+train_df = pd.read_csv('../dataSet/titanic/train.csv')
+test_df = pd.read_csv('../dataSet/titanic/test.csv')
 combine = [train_df, test_df]
 
 print(train_df.columns.values)
